@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input,
+textarea {
+  outline: none;
+  resize: none;
+}
+
+.notes-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 0;
+}
+
+.app-header_title {
+  margin-top: 30px !important;
+  margin-left: 20px !important;
+  font-size: 32px !important;
+  font-weight: 600 !important;
+}
+
+.app-header_controls {
+  display: flex;
+  align-items: center;
+  margin: 10px 0 0 10px;
+}
+.search {
+  font-size: 18px;
+  padding: 15px;
+  margin: 20px;
+  flex-grow: 1;
+  width: 350px;
+  max-width: 350px;
+  border-radius: 100px;
+  border: 1px solid rgb(107, 105, 105);
+}
+
+.add-new-button {
+  font-size: 50px;
+  color: #ffffff;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  padding: 0;
+  min-width: auto;
+  background: #55008c;
+  box-shadow: 0 2px 10px 2px #ddd;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.add-new-button:hover {
+  background: #400864;
+}
+.contenthead {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 30px;
+}
+.other-button {
+  font-size: 16px;
+  margin-left: 40px;
+  text-align: left;
+  cursor: pointer;
+  width: 200px;
+}
+.other-button span {
+  color: #55008c;
+  font-size: 0.8rem;
+}
+
+.note {
+  font-family: Arial, sans-serif;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 10px;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.note_description {
+  font-family: Arial, sans-serif;
+  width: 90%;
+  background: transparent;
+  flex-grow: 1;
+  font-size: 14px;
+  height: 185px;
+  overflow: hidden;
+  justify-content: center;
+  justify-items: center;
+  margin: 20px auto 0 auto;
+  color: #fff;
+  font-size: 14px;
+  border: 0px solid !important;
+}
+.note_description p {
+  margin: 0;
+  padding: 0;
+}
+
+.note_icons {
+  margin-top: 10px;
+  margin-right: 5px;
+  bottom: 0px;
+}
+
+.note_icon {
+  background-color: black;
+  border-radius: 50%;
+  margin: 3px;
+  width: 35px;
+  height: 35px;
+  padding: 6px;
+  cursor: pointer;
+  font-size: 1.8rem !important;
+}
+.note_icon:hover {
+  padding: 2px;
+  border: 1px solid grey;
+}
+
+.dateText {
+  margin: 12px;
+  line-height: 35px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.no-sticky {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  flex-direction: column;
+  height: 200px;
+}
+
+.medium-editor-placeholder:after {
+  color: #ffffff;
+}
