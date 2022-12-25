@@ -1,7 +1,7 @@
 # sticky-notes-reactjs-web-app
 
 <b>Demo</b><br/>
-<a href="https://sticky-notes-3qq0.onrender.com" alt="Demo app - Sticky Notes Created by Ritesh Newal">Demo app - Sticky Notes</a>
+<a href="https://sticky-notes-3qq0.onrender.com" alt="Demo app - Sticky Notes Created by Ritesh Newal" target="_blank">Demo app - Sticky Notes</a>
 
 
 A sticky web application created in React JS. User is able to create, edit and delete notes. 
