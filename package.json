@@ -4,9 +4,11 @@
   "description": "",
   "keywords": [],
   "main": "src/index.js",
+  "homepage": "https://riteshnewal.github.io/sticky-notes-reactjs-web",
   "dependencies": {
     "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
+    "gh-pages": "^4.0.0",
     "react": "16.8.6",
     "react-color": "^2.19.3",
     "react-dom": "16.8.6",
@@ -21,6 +23,8 @@
     "typescript": "3.3.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
