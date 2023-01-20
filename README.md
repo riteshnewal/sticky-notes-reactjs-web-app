@@ -1,5 +1,7 @@
 # sticky-notes-reactjs-web-app
 
+<img width="1678" alt="Screenshot 2022-12-25 at 11 27 36 AM" src="https://user-images.githubusercontent.com/5128706/209458413-b8483e56-3fbd-43ab-aac5-51eea42c36a7.png">
+
 <b>Demo</b><br/>
 <a href="https://sticky-notes-3qq0.onrender.com" alt="Demo app - Sticky Notes Created by Ritesh Newal" target="_blank">Demo app - Sticky Notes</a>
 
@@ -43,4 +45,3 @@ riteshnewal@hotmail.com<br/>
 +91-7878459393<br/>
 https://www.linkedin.com/in/riteshnewal/<br/>
 
-<img width="1678" alt="Screenshot 2022-12-25 at 11 27 36 AM" src="https://user-images.githubusercontent.com/5128706/209458413-b8483e56-3fbd-43ab-aac5-51eea42c36a7.png">
